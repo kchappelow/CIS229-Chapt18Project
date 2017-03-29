@@ -2,7 +2,7 @@
 
 String permutation
 
-Problem description: Write a recursive method to print all the permutaions of a string.
+Problem description: Write a recursive method to print all the permutations of a string.
 For example, for the string **abc**, the permutation is:
 **abc**, **acb**, **bac**, **bca**, **cab**, **cba**
 
