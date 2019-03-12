@@ -13,12 +13,12 @@ Define the following two methods. The second is a helper method.
 
 The first method simply invokes **displayPermutation(" ", s)**. The second method uses a loop to move a character from **s2** to **s1** and recursively invokes it with a new **s1** and **s2** as shown below:
 
-``
-      for (int i = 0; i < s2.length(); i++) {
-         displayPermuation(s1 + s2.charAt(i),
-         s2.substring(0, i) + s2.substring(i + 1));
-      }
-``
+```
+for (int i = 0; i < s2.length(); i++) {
+   displayPermuation(s1 + s2.charAt(i),
+   s2.substring(0, i) + s2.substring(i + 1));
+}
+```
 
 The base case is that **s2** is empty and prints **s1** to the console.
 
